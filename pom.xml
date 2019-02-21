@@ -27,13 +27,13 @@
   </build>
    <distributionManagement>
         <repository>
-            <id>deployment</id>
-            <name>RELEASES</name>
+            <id>repository</id>
+            <name>VBS-RELEASES</name>
             <url>http://10.0.2.13:8081/repository/VBS-RELEASES/student-rel/</url>
         </repository>
         <snapshotRepository>
-            <id>deployment</id>
-            <name>SNAPSHOTS</name>
+            <id>repository</id>
+            <name>VBS-SNAPSHOTS</name>
             <url>http://10.0.2.13:8081/repository/VBS-SNAPSHOTS/student-snap/</url>
         </snapshotRepository>
     </distributionManagement>
