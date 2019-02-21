@@ -28,12 +28,12 @@
    <distributionManagement>
         <repository>
             <id>deployment</id>
-            <name>Internal Releases</name>
+            <name>RELEASES</name>
             <url>http://10.0.2.13:8081/repository/VBS-RELEASES/student-rel/</url>
         </repository>
         <snapshotRepository>
             <id>deployment</id>
-            <name>Internal Snapshot Releases</name>
+            <name>SNAPSHOTS</name>
             <url>http://10.0.2.13:8081/repository/VBS-SNAPSHOTS/student-snap/</url>
         </snapshotRepository>
     </distributionManagement>
